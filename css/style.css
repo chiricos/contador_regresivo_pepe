@@ -1,0 +1,80 @@
+body{
+	font-family:'Conv_DK Lemon Yellow Sun',Sans-Serif;
+	background: url('../images/fondo.png') no-repeat 0 0 ;
+	background-size: cover;
+}
+
+.content{
+
+	    position: fixed;
+        top: 350px;
+    text-align: center;
+    width: 100%;
+    display: block;
+     height: 302px;
+}
+#counter{
+	font-family:'Conv_DK Lemon Yellow Sun',Sans-Serif;
+	background: url('../images/contenedor.png') no-repeat 0 0;
+    background-size: contain;
+    height: 100%;
+    display: block;
+    width: 40%;
+    margin: auto;
+    line-height: 7;
+    font-size: 32px;
+}
+
+@media only screen and (max-width: 980px) {
+
+.content{
+	top: 280px;
+}
+
+#counter{
+	line-height: 6;
+    font-size: 28px;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+.content{
+	top: 230px;
+}
+
+#counter{
+	line-height: 6;
+	font-size: 23px;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+.content{
+	top: 140px;
+}
+
+#counter{
+	    line-height: 6;
+    font-size: 20px;
+    width: 60%;
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+
+.content{
+	top: 100px;
+}
+
+#counter{
+	    line-height: 6;
+    font-size: 18px;
+width: 70%;
+}
+
+}
