@@ -8,7 +8,7 @@ body{
 	display: block;
     height: 302px;
     position: fixed;
-    top: 350px;
+    top: 550px;
     text-align: center;
     width: 100%;
     
@@ -18,11 +18,69 @@ body{
 	background: url('../images/contenedor.png') no-repeat 0 0;
     background-size: contain;
     font-family:'Conv_DK Lemon Yellow Sun',Sans-Serif;
-    font-size: 32px;
+    font-size: 40px;
     height: 100%;
     line-height: 7;
     margin: auto;
     width: 40%;
+}
+
+@media only screen and (max-width: 1800px) {
+
+	.content{
+		top: 515px;
+	}
+
+}
+
+@media only screen and (max-width: 1700px) {
+
+	.content{
+		top: 485px;
+	}
+
+}
+
+@media only screen and (max-width: 1600px) {
+
+	.content{
+		top: 455px;
+	}
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+	.content{
+		top: 430px;
+	}
+
+}
+
+@media only screen and (max-width: 1376px) {
+
+	.content{
+		top: 390px;
+	}
+
+	#counter{
+	    font-size: 38px;
+	    line-height: 6;
+	}
+
+}
+
+@media only screen and (max-width: 1280px) {
+
+	.content{
+		top: 365px;
+	}
+
+	#counter{
+	    font-size: 32px;
+	    line-height: 7;
+	}
+
 }
 
 @media only screen and (max-width: 980px) {
