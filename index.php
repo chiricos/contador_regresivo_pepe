@@ -10,6 +10,7 @@
 	<script src="js/script.js"></script>
 </head>
 <body>
+
 <div align="center">
 <script languaje="JavaScript">
 function getTime() {
@@ -34,7 +35,10 @@ newtime = window.setTimeout("getTime();", 1000);
 <body onLoad="getTime()">
 </div>
 <div class="content">
-	<p style="color:#000000;text-align:center;" id="counter"></p>
+
+	<p style="color:#000000;text-align:center;" id="counter">
+		<img class="logo" src="images/logo-color.png" />
+	</p>
 </div>
 
 </body>
